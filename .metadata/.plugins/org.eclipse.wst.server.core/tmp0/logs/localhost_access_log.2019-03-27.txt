@@ -34,3 +34,8 @@
 127.0.0.1 - - [27/Mar/2019:17:23:59 +0900] "GET / HTTP/1.1" 404 1019
 0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:24:02 +0900] "GET /HelloServlet/ HTTP/1.1" 200 204
 0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:25:59 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
+127.0.0.1 - - [27/Mar/2019:17:51:20 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:51:23 +0900] "GET /HelloServlet/ HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:51:32 +0900] "GET /HelloServlet/Welcome.jsp HTTP/1.1" 404 1067
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:51:50 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:51:55 +0900] "GET /HelloServlet/Welcome.jsp HTTP/1.1" 404 1067
