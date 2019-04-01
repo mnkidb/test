@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="1" timestamp="1554103505746" analysisTimestamp="1554103497952" release="">
+  <Project projectName="WebProj">
+    <Jar>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\build\classes</Jar>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\build\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\annotations-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ha.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-storeconfig.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-tribes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\ecj-4.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\el-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper-el.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jsp-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\servlet-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-coyote.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-dbcp.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-es.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-fr.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-ja.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jdbc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jni.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util-scan.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-websocket.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\websocket-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\commons-fileupload-1.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\commons-io-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\commons-lang3-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\freemarker-2.3.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\javassist-3.11.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\mysql-connector-java-5.1.47-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\ognl-3.0.21.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\struts2-core-2.3.34.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\WebContent\WEB-INF\lib\xwork-core-2.3.34.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\java\8\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\internousdev\Desktop\workspace\workspace-nagasawa\test\WebProj\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 1 Apr 2019 16:04:35 +0900" total_classes="7" referenced_classes="35" total_bugs="0" total_size="73" num_packages="1" java_version="1.8.0_74" vm_version="25.74-b02" cpu_seconds="14.48" clock_seconds="7.80" peak_mbytes="585.46" alloc_mbytes="910.50" gc_seconds="0.23">
+    <PackageStats package="com.internousdev.webproj.action" total_bugs="0" total_types="7" total_size="73">
+      <ClassStats class="com.internousdev.webproj.action.HelloStrutsAction" sourceFile="HelloStrutsAction.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.InquiryAction" sourceFile="InquiryAction.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.InquiryCompleteAction" sourceFile="InquiryCompleteAction.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.LoginAction" sourceFile="LoginAction.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.TestAction" sourceFile="TestAction.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.WelcomeAction" sourceFile="WelcomeAction.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="521" invocations="2" avgMicrosecondsPerInvocation="260851" maxMicrosecondsPerInvocation="387187" standardDeviationMircosecondsPerInvocation="126336"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="404" invocations="375" avgMicrosecondsPerInvocation="1078" maxMicrosecondsPerInvocation="52195" standardDeviationMircosecondsPerInvocation="3275"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="392" invocations="35" avgMicrosecondsPerInvocation="11218" maxMicrosecondsPerInvocation="362665" standardDeviationMircosecondsPerInvocation="60315"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="171" invocations="149" avgMicrosecondsPerInvocation="1152" maxMicrosecondsPerInvocation="43042" standardDeviationMircosecondsPerInvocation="3919"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="164" invocations="35" avgMicrosecondsPerInvocation="4710" maxMicrosecondsPerInvocation="62353" standardDeviationMircosecondsPerInvocation="12145"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="145" invocations="35" avgMicrosecondsPerInvocation="4150" maxMicrosecondsPerInvocation="44452" standardDeviationMircosecondsPerInvocation="9711"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="132" invocations="26" avgMicrosecondsPerInvocation="5079" maxMicrosecondsPerInvocation="129512" standardDeviationMircosecondsPerInvocation="24886"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="124" invocations="380" avgMicrosecondsPerInvocation="327" maxMicrosecondsPerInvocation="22007" standardDeviationMircosecondsPerInvocation="1161"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="75" invocations="35" avgMicrosecondsPerInvocation="2167" maxMicrosecondsPerInvocation="44494" standardDeviationMircosecondsPerInvocation="7486"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="71" invocations="57" avgMicrosecondsPerInvocation="1250" maxMicrosecondsPerInvocation="23242" standardDeviationMircosecondsPerInvocation="3934"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="68" invocations="26" avgMicrosecondsPerInvocation="2629" maxMicrosecondsPerInvocation="59966" standardDeviationMircosecondsPerInvocation="11472"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="60" invocations="26" avgMicrosecondsPerInvocation="2319" maxMicrosecondsPerInvocation="48329" standardDeviationMircosecondsPerInvocation="9218"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1554103505744" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
