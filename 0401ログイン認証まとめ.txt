@@ -7,8 +7,7 @@ Actionが実行されたときに一番最初に実行されるメソッド(mainメソッドと似てる)
 privateなフィールドとゲッター
 [JSPファイル]
 
-
-struts2(＝フレームワーク)はsetterを自動的に利用
+■struts2(＝フレームワーク)はsetterを自動的に利用
 
 ■DTO(データ・トランスファー・オブジェクト)
 ■DAO(データ・アクセス・オブジェクト)
@@ -25,3 +24,27 @@ Actionクラスは必ずActionSupport(インターフェースを実装している)を継承
 そのインターフェースの中に
 SUCCESS="success";ERROR="error";が定義されている
 (これらは定数(2度と変更されることがないもの)で、大文字で定義するのが慣習)
+
+■ValueStackは１往復しかデータを保持できない
+せっかくログインしても次のページに移った時にはログインの情報が消えてしまう
+⇒これを保持するために「セッション(保管するシステム)」
+strutsはValueStackが好き
+
+
+■ECサイト_初級ログイン認証４時間目
+◎strutsでセッションを使うルール
+①Actionクラス　実装
+public class  Action extends ActionSupport imprements SessionAware{
+　　　　　　　　　　　　　　　　　　　　　→実装部分
+
+②private Map<String型,Object型> session;　の形でフィールド定義をする。
+         　　　　  key　　 value 　 　フィールド名
+※object型はString型、int型すべて入れることができる型
+　この型に入れた値は
+
+③sessionフィールドのsetter,getterを定義する
+
+Mapのメソッド
+session.put("キー",値)
+session.get(" ").toString
+                       →
