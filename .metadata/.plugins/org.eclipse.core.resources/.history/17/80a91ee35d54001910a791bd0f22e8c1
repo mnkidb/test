@@ -1,0 +1,39 @@
+package com.internousdev.webproj2.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.apache.catalina.connector.Connector;
+
+import com.internousdev.webproj2.util.DBConnector;
+
+public class HelloStrutsDAO {
+
+	public boolean select(){
+
+		boolean ret=false;
+		DBConnector db = new DBConnector();
+		Connector con = db.getConnection();
+		String sql = "selecr * from users";
+
+		try{
+			PreparedStatement ps = cpm.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+			if(rs.next()){
+				ret = true;
+			}
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+
+		try{
+			con.close();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+
+		return ret;
+
+	}
+}
