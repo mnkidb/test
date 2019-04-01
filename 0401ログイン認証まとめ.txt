@@ -1,0 +1,27 @@
+<action ～
+method="execute">
+Actionが実行されたときに一番最初に実行されるメソッド(mainメソッドと似てる)
+
+■name、password
+[Actionファイル]
+privateなフィールドとゲッター
+[JSPファイル]
+
+
+struts2(＝フレームワーク)はsetterを自動的に利用
+
+■DTO(データ・トランスファー・オブジェクト)
+■DAO(データ・アクセス・オブジェクト)
+
+■throws SQLException
+これを書くとmethod内で例外処理try,catchを書く必要がなくなる
+
+【Actionクラス】
+SUCCESS、ERROR
+【struts.xml】
+<result name="success">
+
+Actionクラスは必ずActionSupport(インターフェースを実装している)を継承
+そのインターフェースの中に
+SUCCESS="success";ERROR="error";が定義されている
+(これらは定数(2度と変更されることがないもの)で、大文字で定義するのが慣習)
