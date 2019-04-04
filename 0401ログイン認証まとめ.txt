@@ -31,7 +31,7 @@ SUCCESS="success";ERROR="error";が定義されている
 strutsはValueStackが好き
 
 
-■ECサイト_初級ログイン認証４時間目
+■ECサイト_初級 ログイン認証４時間目
 ◎strutsでセッションを使うルール
 ①Actionクラス　実装
 public class  Action extends ActionSupport imprements SessionAware{
