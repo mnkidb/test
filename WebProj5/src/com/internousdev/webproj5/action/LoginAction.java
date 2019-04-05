@@ -8,14 +8,15 @@ import org.apache.struts2.interceptor.SessionAware;
 
 import com.internousdev.webproj5.dao.LoginDAO;
 import com.internousdev.webproj5.dto.LoginDTO;
-import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ActionSupport;;
 
-public class LoginAction extends ActionSupport implements SessionAware{
+
+public class LoginAction extends ActionSupport implements SessionAware {
 
 	private String username;
 	private String password;
 	private List<LoginDTO> loginDTOList = new ArrayList<LoginDTO>();
-	Map<String,Object> session;
+	private Map<String,Object> session;
 
 	public String execute(){
 
@@ -28,10 +29,10 @@ public class LoginAction extends ActionSupport implements SessionAware{
 
 		if(this.username.equals(loginDTOList.get(0).getUsername())
 		&& this.password.equals(loginDTOList.get(0).getPassword())){
-
 			session.put("loginDTOList", loginDTOList);
 			ret = SUCCESS;
 		}else{
+			session.put("loginDTOList", loginDTOList);
 			ret = ERROR;
 		}
 
@@ -44,7 +45,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	}
 
 	public void setUsername(String username){
-		this.username=username;
+		this.username = username;
 	}
 
 	public String getPassword(){
@@ -52,20 +53,15 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	}
 
 	public void setPassword(String password){
-		this.password=password;
+		this.password = password;
 	}
-
 
 	public Map<String,Object> getSession(){
 		return session;
 	}
 
-	@Override
 	public void setSession(Map<String, Object> session) {
 		this.session = session;
 	}
-
-
-
 
 }

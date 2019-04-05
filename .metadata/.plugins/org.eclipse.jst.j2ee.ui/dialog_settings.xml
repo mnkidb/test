@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="false" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
+	<list key="J2EE_IMPORT_null">
+		<item value="C:\Users\internousdev\Desktop\WebProj5new.war"/>
+		<item value="C:\Users\internousdev\Desktop\WebProj5.war"/>
+		<item value="C:\Users\internousdev\Downloads\struts-2.3.37-all\struts-2.3.37\apps\struts2-blank.war"/>
+		<item value="C:\Users\internousdev\Desktop\struts2-blank.war"/>
+	</list>
 	<list key="MRU_RUNTIME_STORE">
 		<item value="Tomcat8 (Java8)"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\Users\internousdev\Desktop\WebProj5new.war"/>
+		<item value="C:\Users\internousdev\Desktop\WebProj5.war"/>
 	</list>
 </section>

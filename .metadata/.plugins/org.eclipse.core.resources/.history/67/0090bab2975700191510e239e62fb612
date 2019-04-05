@@ -1,0 +1,19 @@
+package com.internousdev.webproj5.action;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.internousdev.webproj5.dto.InquiryDTO;
+
+public class InquiryCompleteAction {
+
+	private String name;
+	private String qtype;
+	private String body;
+
+	List<InquiryDTO> inquiryDTOList = new ArrayList<InquiryDTO>();
+
+	private Map<String,Object> session;
+
+}
