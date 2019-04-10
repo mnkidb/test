@@ -54,7 +54,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 		return userName;
 	}
 
-	public void getUserName(String userName){
+	public void setUserName(String userName){
 		this.userName=userName;
 	}
 

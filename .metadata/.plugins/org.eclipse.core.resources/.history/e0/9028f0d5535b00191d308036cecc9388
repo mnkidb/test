@@ -1,0 +1,7 @@
+package com.internousdev.loginTest.dto;
+
+public class HelloStrutsDTO {
+
+
+
+}

@@ -46,7 +46,6 @@ public class MyPageDAO {
 				myPageDTO.add(dto);
 			}
 
-
 		}catch(Exception e){
 			e.printStackTrace();
 		}finally{
