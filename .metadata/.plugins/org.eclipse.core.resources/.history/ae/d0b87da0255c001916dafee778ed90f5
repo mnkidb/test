@@ -1,0 +1,14 @@
+package com.internousdev.loginTest.dto;
+
+import java.sql.Connection;
+
+import com.internousdev.loginTest.util.DBConnector;
+
+public class InquiryCompleteDAO {
+	
+	DBConnector db = new DBConnector();
+	Connection con = db.getConnection();
+	
+	public List<InquiryDTO> getInquiry
+
+}

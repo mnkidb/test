@@ -51,6 +51,7 @@ public class MyPageDAO {
 		}finally{
 			connection.close();
 		}
+
 		return myPageDTO;
 	}
 

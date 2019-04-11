@@ -1,0 +1,44 @@
+package com.internousdev.loginTest.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.internousdev.loginTest.dto.InquiryDTO;
+import com.internousdev.loginTest.util.DBConnector;
+
+public class InquiryCompleteDAO {
+
+	private String name;
+	private String qtype;
+	private String body;
+
+	DBConnector db = new DBConnector();
+	Connection con = db.getConnection();
+
+
+
+
+	public List<InquiryDTO> getInquiry(){
+
+		List<InquiryDTO> inquiryDTOList = new ArrayList<InquiryDTO>();
+
+		String sql = "INSERT INTO inquiry(name,qtype,body) VALUES(?,?,?)";
+
+		try{
+		PreparedStatement ps = con.prepareStatement(sql);
+
+		ps.setString(1, name);
+		ps.setString(2,qtype);
+
+
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+
+		return inquiryDTOList;
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.internousdev.loginTest.dto;
+
+public class loginDTO {
+	
+	
+}

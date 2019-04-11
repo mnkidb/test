@@ -6,6 +6,7 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.internousdev.loginTest.dao.HelloStrutsDAO;
 import com.internousdev.loginTest.dto.HelloStrutsDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
@@ -16,16 +17,18 @@ public class HelloStrutsAction extends ActionSupport implements SessionAware{
 
 	public String execute(){
 
-		String ret = ERROR;
+		String ret;
+		HelloStrutsDAO dao = new HelloStrutsDAO();
+		helloStrutsDTOList = dao.select();
+
+		if(helloStrutsDTOList.size()>0){
+			session.put("helloStrutsList", helloStrutsDTOList);
+			ret = SUCCESS;
+		}else{
+			ret= ERROR;
+		}
 
 		return ret;
-	}
-
-
-
-	
-	public String getSession(){
-		return session;
 	}
 
 	@Override

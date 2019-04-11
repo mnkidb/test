@@ -1,0 +1,60 @@
+package com.internousdev.loginTest.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.internousdev.loginTest.dto.TestDTO;
+import com.internousdev.loginTest.util.DBConnector;
+
+public class TestDAO {
+
+	private String userName;
+	private String password;
+	List<TestDTO> testDTOList = new ArrayList<TestDTO>();
+
+	public List<TestDTO> newRegist(){
+
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
+
+		String sql = "INSERT INTO user_info(user_name, user_pass) VALUES(?,?)";
+
+		try{
+			PreparedStatement ps = con.prepareStatement(sql);
+			ps.setString(1, userName);
+			ps.setString(2, password);
+
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+
+		try{
+			con.close();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+
+		return testDTOList;
+	}
+
+	public String getUserName(){
+		return userName;
+	}
+
+	public void setUserName(String userName){
+		this.userName=userName;
+	}
+
+	public String getPassword(){
+		return password;
+	}
+
+	public void setPassword(String password){
+		this.password=password;
+	}
+
+
+}

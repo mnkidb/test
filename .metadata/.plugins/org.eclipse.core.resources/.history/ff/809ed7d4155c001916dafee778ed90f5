@@ -1,0 +1,15 @@
+package com.internousdev.loginTest.dao;
+
+import java.sql.Connection;
+
+import com.internousdev.loginTest.util.DBConnector;
+
+
+public class LoginDAO {
+
+	DBConnector db = new DBConnector();
+	Connection con = db.getConnection();
+
+
+
+}
