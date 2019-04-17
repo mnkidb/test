@@ -1,8 +1,0 @@
-package com.internousdev.webproj5.dao;
-
-import com.internousdev.webproj5.dto.InruiryDTO;
-
-public class InquiryCompleteDAO {
-
-	List<InquiryDTO> inquiryDTOList = new List<InquiryDTO>();
-}

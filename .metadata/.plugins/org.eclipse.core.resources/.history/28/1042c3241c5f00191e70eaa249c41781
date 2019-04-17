@@ -1,0 +1,61 @@
+package com.internousdev.loginTest.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.internousdev.loginTest.dto.LoginDTO;
+import com.internousdev.loginTest.util.DBConnector;
+
+public class TestDAO {
+
+	public int newRegist(String userName,String password){
+
+		int ret = 0;
+
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
+
+		String sql = "INSERT INTO user_info(user_name, user_pass) VALUES(?,?)";
+
+		try{
+			PreparedStatement ps = con.prepareStatement(sql);
+			ps.setString(1, userName);
+			ps.setString(2, password);
+
+			int i = ps.executeUpdate();
+
+			if(i>0){
+				System.out.println(i + "件登録されました");
+				ret = i;
+			}
+
+
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+
+		try{
+			con.close();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+
+		return ret;
+	}
+
+	public List<LoginDTO> select(){
+
+		List<LoginDTO> loginDTOList = new ArrayList<LoginDTO>();
+
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
+
+		String sql = "SELECT * FROM user_info WHERE user_name AND user_pass";
+
+		return loginDTOList;
+	}
+
+}
