@@ -10,7 +10,7 @@
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
-	<title>UserCreateComplete画面</title>
+	<title>ItemCreateComplete画面</title>
 
 	<style type="text/css">
 	/* ========TAG LAYOUT======== */
@@ -62,11 +62,11 @@
 
 	<div id="main">
 		<div id="top">
-			<p>UserCreateComplete</p>
+			<p>ItemCreateComplete</p>
 		</div>
 
 		<div>
-			<h3>ユーザーの登録が完了致しました。</h3>
+			<h3>商品の登録が完了致しました。</h3>
 			<div>
 				<a href='<s:url action="HomeAction"/>'>ログインへ</a>
 			</div>
