@@ -1,0 +1,11 @@
+package com.internousdev.ecsite.dto;
+
+public class UserInfoDTO {
+
+	private int id;
+	private String loginId;
+	private String loginPass;
+	private String userName;
+	private String insertDate;
+	private String updatedDate;
+}

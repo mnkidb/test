@@ -1,0 +1,14 @@
+package com.internousdev.ecsite.action;
+
+public class ItemListDeleteCompleteAction extends ActionSupport{
+
+	public String execute(){
+
+		result = SUCCESS;
+
+
+
+		return result;
+	}
+
+}

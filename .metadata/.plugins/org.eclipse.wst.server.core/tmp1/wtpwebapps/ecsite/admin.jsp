@@ -97,13 +97,13 @@
 				<tr>
 					<!-- 商品 -->
 					<td>
-						<s:form action="HomeAction">
+						<s:form action="ItemListAction">
 						<s:submit value="一覧"/>
 						</s:form>
 					</td>
 					<!-- ユーザー -->
 					<td>
-						<s:form action="HomeAction">
+						<s:form action="UserListAction">
 						<s:submit value="一覧"/>
 						</s:form>
 					</td>

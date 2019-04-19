@@ -4,3 +4,7 @@
 1555573618407	ローカル変数名 'userName' の変更
 1555573653435	ローカル変数名 'loginPassword' の変更
 1555574308696	型名 'ItemCreateConfrimAction' を変更します
+1555638343101	型名 'ItemCreateCompeteDAO' を変更します
+1555650381332	リソース 'userListDeleteComplete.jsp' の名前変更
+1555659498291	型名 'UserDeleteCompleteDAO' を変更します
+1555660264226	リソース 'userDeleteConfirm.jsp' の名前変更
