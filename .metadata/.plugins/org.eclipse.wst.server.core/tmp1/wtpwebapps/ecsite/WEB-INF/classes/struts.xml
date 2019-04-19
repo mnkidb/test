@@ -28,6 +28,7 @@
 	method="execute">
 		<result name="success">buyItem.jsp</result>
 		<result name="error">home.jsp</result>
+		<result name="admin">admin.jsp</result>
 	</action>
 
 <!--UserCreateAction -->

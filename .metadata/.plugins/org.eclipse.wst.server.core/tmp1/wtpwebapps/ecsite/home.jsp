@@ -76,9 +76,9 @@
 				<s:submit value="商品購入"/>
 			</s:form>
 
-			<s:form action="AdminAction">
-				<s:submit value="管理者"/>
-			</s:form>
+<%-- 			<s:form action="AdminAction"> --%>
+<%-- 				<s:submit value="管理者"/> --%>
+<%-- 			</s:form> --%>
 
 			<s:if test="#session.id != null">
 				<p>ログアウトする場合は

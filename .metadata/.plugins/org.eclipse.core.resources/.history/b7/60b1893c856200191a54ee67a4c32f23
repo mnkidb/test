@@ -34,7 +34,7 @@ public class LoginDAO {
 					loginDTO.setLoginFlg(true);
 				}
 
-				if(resultSet.getString("admin_flg").equals("a")){
+				if(resultSet.getString("").equals("a")){
 					loginDTO.setAdminFlg(true);
 				}
 			}

@@ -110,6 +110,10 @@
 				</tr>
 			</table>
 
+			<div id="text-right">
+				<p><a href='<s:url action="LogoutAction"/>'>ログアウト</a></p>
+			</div>
+
 		</div>
 	</div>
 

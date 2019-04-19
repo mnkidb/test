@@ -12,7 +12,7 @@
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
-	<title>Home画面</title>
+	<title>Admin画面</title>
 
 	<style type="text/css">
 
@@ -69,21 +69,47 @@
 
 	<div id="main">
 		<div id="top">
-			<p>Home</p>
+			<p>管理者画面</p>
 		</div>
 		<div id="text-center">
-			<s:form action="HomeAction">
-				<s:submit value="商品購入"/>
-			</s:form>
 
-<%-- 			<s:form action="AdminAction"> --%>
-<%-- 				<s:submit value="管理者"/> --%>
-<%-- 			</s:form> --%>
+			<table>
+				<tr>
+					<th>商品</th>
+					<th>ユーザー</th>
+				</tr>
 
-			<s:if test="#session.id != null">
-				<p>ログアウトする場合は
-				<a href="<s:url action='LogoutAction'/>">こちら</a></p>
-			</s:if>
+				<tr>
+					<!-- 商品 -->
+					<td>
+						<s:form action="ItemCreateAction">
+						<s:submit value="新規登録"/>
+						</s:form>
+					</td>
+					<!-- ユーザー -->
+					<td>
+						<s:form action="UserCreateAction">
+						<s:submit value="新規登録"/>
+						</s:form>
+					</td>
+				</tr>
+
+				<tr>
+					<!-- 商品 -->
+					<td>
+						<s:form action="ItemListAction">
+						<s:submit value="一覧"/>
+						</s:form>
+					</td>
+					<!-- ユーザー -->
+					<td>
+						<s:form action="UserListAction">
+						<s:submit value="一覧"/>
+						</s:form>
+					</td>
+				</tr>
+			</table>
+
 		</div>
 	</div>
 
